@@ -4,4 +4,6 @@
 
 The task is to replicate the design shown below, creating the html & CSS from scratch.
 
-[design]
+[Design](./design/img-tea-cozy-readline.webp)
+[Code](https://github.com/russellmclean117/Codecademy-Tea-Cozy)
+[Live Site](https://russellmclean117.github.io/Codecademy-Tea-Cozy/)
