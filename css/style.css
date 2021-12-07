@@ -5,6 +5,10 @@
 
 body {
   background-color: black;
+
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
 }
 
 /* HEADER */
@@ -42,7 +46,7 @@ header nav ul {
 /* MAIN */
 
 main {
-  margin-top: 69px;
+  margin-top: 69px; /* FIXME: this causes nav links to not work correctly */
 }
 
 /* FOOTER */
