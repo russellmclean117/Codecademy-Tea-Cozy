@@ -1,5 +1,5 @@
 * {
-  /*border: 1px solid red; */
+  /* border: 1px solid red; */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -30,6 +30,7 @@ header {
   width: 100%;
   height: 69px;
   position: fixed;
+  z-index: 10;
   top: 0px;
   left: 0px;
   display: flex;
@@ -72,8 +73,22 @@ main {
   align-items: center;
 }
 
+#mission-section article {
+  width: 100%;
+  position: absolute;
+  top: 419px;
+  left: 0;
+  transform: translate(0, -50%);
+
+  background-color: black;
+}
+
 #mission-section img {
   height: 700px;
+}
+
+#featured-section {
+  margin-top: 20px;
 }
 
 #totm-container {
