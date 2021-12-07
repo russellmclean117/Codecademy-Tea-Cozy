@@ -88,11 +88,20 @@ main {
 }
 
 #featured-section {
+  width: 100%;
   margin-top: 20px;
 }
 
 #totm-container {
+  width: 100%;
+
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#totm-container figure {
+  margin: 10px;
 }
 
 .totm-img {
