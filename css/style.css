@@ -1,5 +1,5 @@
 * {
-  border: 1px solid red;
+  /*border: 1px solid red; */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -103,6 +103,11 @@ figcaption {
 
 /* FOOTER */
 
-#copyright {
+.contact-details {
+  font-size: 14px;
+}
+
+.copyright {
   text-align: left;
+  font-size: 14px;
 }
