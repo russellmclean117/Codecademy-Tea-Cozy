@@ -73,6 +73,7 @@ main {
   align-items: center;
 }
 
+/*mission section*/
 #mission-section article {
   width: 100%;
   position: absolute;
@@ -85,8 +86,11 @@ main {
 
 #mission-section img {
   height: 700px;
+  width: 1200px;
+  object-fit: cover;
 }
 
+/*featured section*/
 #featured-section {
   width: 100%;
   margin-top: 20px;
@@ -113,19 +117,50 @@ figcaption {
   text-align: center;
 }
 
+/* locations section*/
+#locations-section {
+  position: relative;
+  margin-top: 20px;
+}
+
+.floating-container {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 5;
+}
+
+.floating-container h2 {
+  margin-bottom: 15px;
+}
+
 #locations-container {
+  width: 1200px;
   display: flex;
+  justify-content: space-around;
 }
 
 .location {
   width: 300px;
+  background-color: black;
+}
+
+.location h3,
+.location p {
+  margin: 20px 0;
 }
 
 #locations-section img {
   height: 500px;
+  width: 1200px;
+  object-fit: none;
 }
 
 /* FOOTER */
+
+footer {
+  margin: 20px 0;
+}
 
 .contact-details {
   font-size: 14px;
