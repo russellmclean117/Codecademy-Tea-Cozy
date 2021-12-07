@@ -11,6 +11,11 @@ body {
   opacity: 0.9;
 }
 
+p,
+li {
+  font-size: 22px;
+}
+
 /* HEADER */
 
 header {
