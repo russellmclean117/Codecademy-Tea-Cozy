@@ -48,6 +48,11 @@ header nav ul {
   list-style-type: none;
 }
 
+header nav ul li a:link,
+header nav ul li a:visited {
+  color: seashell; /* links remain with the color scheme */
+}
+
 /* MAIN */
 
 main {
